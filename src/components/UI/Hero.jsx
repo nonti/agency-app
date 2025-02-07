@@ -1,5 +1,8 @@
-import heroDarkImg from '../../assets/images/hero.png';
+// import { MdOutlineLightMode } from "react-icons/md";
+// import { MdDarkMode } from "react-icons/md";
 import '../../components/styles/Hero.css';
+import PropTypes from 'prop-types'
+
 const Hero = () => {
   return (
     <section className='hero_section'>
@@ -18,13 +21,20 @@ const Hero = () => {
             <button className="secondary_btn">Discover More</button>
            </div>
           </div>
-          <div className="hero_img">
-            <img src={heroDarkImg} alt="hero" />
-          </div>
+          {/* <div className="hero_img">
+            <span>{
+               theme === 'light-theme' ? <MdDarkMode/> : <MdOutlineLightMode/>
+              }</span>
+          </div> */}
         </div>
       </div>
     </section>
   )
+}
+
+Hero.propTypes = {
+  theme: PropTypes.string.isRequired,
+  toggleTheme: PropTypes.func.isRequired,
 }
 
 export default Hero

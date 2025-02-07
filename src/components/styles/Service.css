@@ -32,6 +32,11 @@
   margin-bottom: 30px;
 }
 
+.light-theme .service_icon{
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 .service_title {
   color: var(--primary-color);
   font-size: 1.3rem;

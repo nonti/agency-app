@@ -59,6 +59,6 @@
 .secondary_btn{
   background: var(--btn-primary-bg);
 }
-.hero_img {
-
+.hero_img span{
+  width: 100%;
 }
