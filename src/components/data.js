@@ -18,7 +18,7 @@ import caseStudyImg from '../assets/images/case-study.png';
 
 export const navLinks = [
   {
-    path: 'Home',
+    path: '#home',
     display: 'Home',
   },
   {

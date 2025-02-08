@@ -66,3 +66,30 @@
 .light-theme .copyright {
   color: #555;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .footer_logo {
+    width: 50%;
+  }
+  .footer_wrapper {
+    flex-wrap: wrap;
+    column-gap: 1.5rem !important;
+    row-gap: 1.5rem;
+  }
+
+ 
+
+  .footer_logo h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer_quick_links {
+    width: 47%;
+  } 
+  .footer_logo {
+    width: 47%;
+  }
+}

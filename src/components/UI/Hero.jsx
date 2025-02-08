@@ -1,11 +1,12 @@
 // import { MdOutlineLightMode } from "react-icons/md";
 // import { MdDarkMode } from "react-icons/md";
 import '../../components/styles/Hero.css';
+import heroImg from '../../assets/images/hero.png';
 import PropTypes from 'prop-types'
 
 const Hero = () => {
   return (
-    <section className='hero_section'>
+    <section id="home" className='hero_section'>
       <div className="container">
         <div className="hero_wrapper">
           <div className="hero_content">
@@ -21,11 +22,11 @@ const Hero = () => {
             <button className="secondary_btn">Discover More</button>
            </div>
           </div>
-          {/* <div className="hero_img">
-            <span>{
-               theme === 'light-theme' ? <MdDarkMode/> : <MdOutlineLightMode/>
-              }</span>
-          </div> */}
+           <div className="hero_img">
+            <span>
+              <img src={heroImg} alt="Hero Image" />
+            </span>
+          </div> 
         </div>
       </div>
     </section>

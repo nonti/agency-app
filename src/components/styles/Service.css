@@ -43,3 +43,33 @@
   margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 992px) {
+  .service_top_content h2 {
+    font-size: 1.5rem;
+  }
+  .service_item_wrapper {
+    flex-wrap: wrap;
+  }
+
+  .service_item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .service_item{
+    width: 47.7%;
+  }
+  .service_title {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .service_item {
+    width: 100%;
+  }
+}
